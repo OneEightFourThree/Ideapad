@@ -1,0 +1,22 @@
+﻿生成启动时间为 2017/11/28 21:06:19。
+     1>项目“D:\visual studio 2010\Projects\unit23\StableEchoClnt_win\StableEchoClnt_win\StableEchoClnt_win.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\visual studio 2010\Projects\unit23\StableEchoClnt_win\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\StableEchoClnt_win.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt StableEchoClnt_win.cpp
+         StableEchoClnt_win.cpp
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\visual studio 2010\Projects\unit23\StableEchoClnt_win\Debug\StableEchoClnt_win.exe" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\StableEchoClnt_win.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\visual studio 2010\Projects\unit23\StableEchoClnt_win\Debug\StableEchoClnt_win.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\visual studio 2010\Projects\unit23\StableEchoClnt_win\Debug\StableEchoClnt_win.lib" /MACHINE:X86 Debug\StableEchoClnt_win.obj
+         StableEchoClnt_win.vcxproj -> D:\visual studio 2010\Projects\unit23\StableEchoClnt_win\Debug\StableEchoClnt_win.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\visual studio 2010\Projects\unit23\StableEchoClnt_win\Debug\StableEchoClnt_win.exe;#1" /manifest Debug\StableEchoClnt_win.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\StableEchoClnt_win.unsuccessfulbuild”。
+         正在对“Debug\StableEchoClnt_win.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\visual studio 2010\Projects\unit23\StableEchoClnt_win\StableEchoClnt_win\StableEchoClnt_win.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.62
