@@ -1,0 +1,40 @@
+﻿生成启动时间为 2017/11/29 22:36:24。
+     1>项目“D:\visual studio 2010\Projects\unit24\webserv_win\webserv_win\webserv_win.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\webserv_win.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\webserv_win.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt webserv_win.cpp
+         webserv_win.cpp
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(67): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(67): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(71): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(72): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(87): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(126): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(197) : 参见“strtok”的声明
+     1>d:\visual studio 2010\projects\unit24\webserv_win\webserv_win\webserv_win.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\visual studio 2010\Projects\unit24\webserv_win\Debug\webserv_win.exe" /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\webserv_win.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\visual studio 2010\Projects\unit24\webserv_win\Debug\webserv_win.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\visual studio 2010\Projects\unit24\webserv_win\Debug\webserv_win.lib" /MACHINE:X86 Debug\webserv_win.obj
+         webserv_win.vcxproj -> D:\visual studio 2010\Projects\unit24\webserv_win\Debug\webserv_win.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\visual studio 2010\Projects\unit24\webserv_win\Debug\webserv_win.exe;#1" /manifest Debug\webserv_win.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\webserv_win.unsuccessfulbuild”。
+         正在对“Debug\webserv_win.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\visual studio 2010\Projects\unit24\webserv_win\webserv_win\webserv_win.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.55
