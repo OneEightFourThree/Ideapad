@@ -70,7 +70,7 @@ int main(int argc,char *argv[])
 		(hbInfo->wsaBuf).len = BUF_SIZE;
 
 		lpOvLp->hEvent = (HANDLE)hbInfo;
-		WSARecv(hRecvSock,&(hbInfo->wsaBuf),1,&recvBytes,(LPDWORD)&flagInfo,lpOvLp,ReadCompRoutine);-
+		WSARecv(hRecvSock,&(hbInfo->wsaBuf),1,&recvBytes,(LPDWORD)&flagInfo,lpOvLp,ReadCompRoutine);
 	}
 	closesocket(hRecvSock);
 	closesocket(hLisnSock);

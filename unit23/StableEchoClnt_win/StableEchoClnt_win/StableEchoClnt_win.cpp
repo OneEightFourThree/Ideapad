@@ -24,7 +24,7 @@ int main(int argc,char *argv[])
 
 	hSocket = socket(PF_INET,SOCK_STREAM,0);
 	if(hSocket == INVALID_SOCKET)
-		ErrorHandling("socket() error");
+		ErrorHandling("socket() error!");
 
 	memset(&servAdr,0,sizeof(servAdr));
 	servAdr.sin_family = AF_INET;
@@ -38,7 +38,7 @@ int main(int argc,char *argv[])
 
 	while(1)
 	{
-		fputs("Input message (Q to quit) : ",stdout);
+		fputs("Input message (Q to quit) :",stdout);
 		fgets(message,BUF_SIZE,stdin);
 		if(!strcmp(message,"q\n") || !strcmp(message,"Q\n"))
 			break;

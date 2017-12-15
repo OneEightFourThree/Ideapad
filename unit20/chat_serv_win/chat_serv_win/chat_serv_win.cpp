@@ -44,8 +44,9 @@ int main(int argc,char *argv[])
 	while(1)
 	{
 		clntAdrSz = sizeof(clntAdr);
+		printf("11111111111111111111\n");
 		hClntSock = accept(hServSock,(SOCKADDR*)&clntAdr,&clntAdrSz);
-
+		printf("22222222222222222222\n");
 		WaitForSingleObject(hMutex,INFINITE);
 		clntSocks[clntcnt++] = hClntSock;
 		ReleaseMutex(hMutex);
