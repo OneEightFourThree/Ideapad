@@ -361,7 +361,7 @@ int stepMerge = 1;
 template <typename DataType>
 void AllSort<DataType>::MergeSort(vector<DataType> &a,int low,int high,bool Up)
 {
-	if(stepMerge = 1)
+	if(stepMerge == 1)
 	{
 		beforSort();
 		stepMerge = 0;
@@ -384,7 +384,7 @@ void AllSort<DataType>::Merge(vector<DataType> &a,int low,int mid,int high,bool 
 	long Max = 99999999;
 	long Min = -99999999;
 	int *L = new int[n1 + 1];
-	int *R = new int[n2 + 2];
+	int *R = new int[n2 + 1];
 	if(L == NULL || R == NULL)
 	{
 		exit(1);
@@ -549,7 +549,7 @@ void AllSort<DataType>::InsertSort(vector<DataType> &a,int l,int r,bool Up)
 			key = a[i];
 			int j = i - 1;
 			countSortCmp++;
-			while(j >= 1 && a[j] > key)
+			while(j >= l && a[j] > key)
 			{
 				a[j + 1] = a[j];
 				j--;
@@ -567,7 +567,7 @@ void AllSort<DataType>::InsertSort(vector<DataType> &a,int l,int r,bool Up)
 			key = a[i];
 			int j = i - 1;
 			countSortCmp++;
-			while(j >= 1 && a[j] < key)
+			while(j >= l && a[j] < key)
 			{
 				a[j + 1] = a[j];
 				j--;
@@ -662,7 +662,7 @@ template <typename DataType>
 void AllSort<DataType>::BuildMaxHeap(vector<DataType> &a,bool Up)
 {
 	int heapsize = a.size() - 1;
-	for(int i = heapsize / 2;i > 0;i--)
+ 	for(int i = heapsize/2 - 1;i >= 0;i--)
 	{
 		KeepMaxHeap(a,i,heapsize,Up);	//heapsize / 2到a.size - 1的整数都是树叶，所以只需对0 ~ heapsize/2作处理
 	}

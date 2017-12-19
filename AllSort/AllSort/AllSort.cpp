@@ -49,7 +49,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		sort.randArray(arr,len,isRand);
 		sort.printArray(arr,isPrint);
 		QueryPerformanceCounter(&startTime);
-		sort.BubbleSort(arr,1,arr.size() - 1,upflag);
+		sort.BubbleSort(arr,0,arr.size()-1,upflag);
 		QueryPerformanceCounter(&stopTime);
 		sort.printArray(arr,isPrint);
 		time = 1e3*(stopTime.QuadPart - startTime.QuadPart)/freq.QuadPart;
